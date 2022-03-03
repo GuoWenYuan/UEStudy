@@ -22,6 +22,8 @@ public:
 };
 
 template<typename T>
-inline void AEvent::Run(T a)
+inline void AEvent::Run(T t)
 {
+	UE_LOG(LogTemp, Warning,TEXT("%s"),t)
+
 }
